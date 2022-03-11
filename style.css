@@ -1,0 +1,64 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #444;
+    background-color: bisque;
+    padding-left: 10vw;
+}
+
+#todoform,
+.todorow {
+    display: flex;
+    flex-flow: row;
+}
+
+#todotitle {
+    font-size: 6em;
+    width: 100%;
+}
+
+#todoinput {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    min-width: 60%;
+    padding: 0.4em;
+    font-size: 3em;
+}
+
+#todosubmit {
+    padding: 1em;
+    margin-left: 1em;
+    min-height: 200px;
+    max-height: 200px;
+    font-size: 2em;
+    color: #444;
+}
+
+ul {
+    margin-top: 5vh;
+}
+
+li {
+    font-size: 2em;
+    user-select: none;
+    margin-bottom: 0.5em;
+    list-style-type: none;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.remove {
+    color: red;
+    font-weight: bolder;
+    font-size: 1em;
+    margin-right: 1em;
+    max-height: 2em;
+}
+
+#deletealltodos {
+    background-color: red;
+    color: white;
+    border: none;
+    margin-top: 1em;
+    padding: 0.5em;
+}
